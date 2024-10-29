@@ -8,3 +8,13 @@ body{
   top: 0px;
   left: 0px;
 }
+
+.Profile img{
+  width: 90px;
+  height: 90px;
+  
+}
+
+#input-file{
+  display: none;
+}
