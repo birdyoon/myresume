@@ -17,7 +17,7 @@ const ProfileChange = () => {
         }
 
             //화면에 프로필 사진 표시
-        const reader = new FileReader();  // (5)번 설명
+        const reader = new FileReader(); 
         reader.onload = () => {
             if (reader.readyState === 2) {
                 setImage(reader.result);

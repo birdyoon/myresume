@@ -7,7 +7,53 @@ body{
   position: sticky;
   top: 0px;
   left: 0px;
+  background-color: #2c3e50 !important;
+  display: flex;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  justify-content: center;
 }
+
+.app-header button{
+  color:  #fff;
+  padding-left: 1rem !important;
+  font-weight: 700;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: SB Heading, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  border-color: #2c3e50;
+  box-shadow: 0 0 40px 40px #2c3e50 inset, 0 0 0 0 #2c3e50;
+  transition: all 150ms ease-in-out;
+  &:hover {
+    box-shadow: 0 0 10px 0 #2c3e50, 0 0 10px 4px rgb(0, 110, 255);
+  }
+  
+}
+
+/* ///////////////////////////home-page/////////////////////////////////////// */
+
+.home-page{
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  background-color: #1abc9c;
+}
+
+.home-page img{
+  width: 15rem;
+}
+
+.home-page h1{
+  font-size: 4rem;
+  line-height: 3.5rem;
+  color: #fff;
+}
+
+
+
+
+/* //////////////////////////////////////////////////////////////////// */
 
 .Profile img{
   width: 90px;
